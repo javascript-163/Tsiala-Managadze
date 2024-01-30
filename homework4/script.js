@@ -33,9 +33,6 @@ switch(vegetables) {
 }
 
 
-
-
-
 // dav3
 
 let userAge = prompt("შეიყვანეთ ასაკი");
