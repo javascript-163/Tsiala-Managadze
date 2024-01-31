@@ -42,26 +42,26 @@ console.log(randomString.slice(-10, -5))
 // console.log(children.indexOf("N"));
 // awvdi da gibrunebs indexss
 
-let children = "Gaga, Gia, Tamari, Nutsa, Nini, Nika";
+// let children = "Gaga, Gia, Tamari, Nutsa, Nini, Nika";
 
-let childrenArray = children.split(", ");
+// let childrenArray = children.split(", ");
 
-let clonedChildren = Array.from(childrenArray);
-clonedChildren.pop();
-console.log(childrenArray);
-console.log(clonedChildren);
+// let clonedChildren = Array.from(childrenArray);
+// clonedChildren.pop();
+// console.log(childrenArray);
+// console.log(clonedChildren);
 
-ganmarteba
-siRmiseuli kopireba klonireba (originali ar icvleba axali masivi iqmneba da masze axdens cvlilebas)
-
-
-let person = {
-    name: "George"
-};
-
-console.log(typeof childrenArray, typeof person, Array.isArray(childrenArray));
+// ganmarteba
+// siRmiseuli kopireba klonireba (originali ar icvleba axali masivi iqmneba da masze axdens cvlilebas)
 
 
-ganmarteba
-gexmareba masivi tua masivi rom gaigo
-da araa obieqti
+// let person = {
+//     name: "George"
+// };
+
+// console.log(typeof childrenArray, typeof person, Array.isArray(childrenArray));
+
+
+// ganmarteba
+// gexmareba masivi tua masivi rom gaigo
+// da araa obieqti
