@@ -4,7 +4,7 @@ class Shape {
 }   
 
     area() {
-        console.log("Area calculation not implemented for generic shape.");
+        return "Area calculation not implemented for generic shape."
     }
          
 }
@@ -47,6 +47,8 @@ class Triangle extends Shape {
 let circle = new Circle("Circle", 5);
 let rectangle = new Rectangle("Rectangle", 4, 6);
 let triangle = new Triangle("Triangle", 3, 4);
+let shapes = new Shape ()
+
 
 console.log("Area of Circle: " + circle.area());
 console.log("Area of Rectangle: " + rectangle.area());
