@@ -1,23 +1,23 @@
 class Shape {
- constructor(name){
-    this.name = name;
+ constructor(msg){
+    this.msg = msg;
 }   
 
     area() {
-        return "Area calculation not implemented for generic shape."
+        return "Area calculation not implemented for generic shape. ";
     }
          
 }
    class Circle extends Shape{
-    constructor(radius, name) {
-        super();
+    constructor(name, radius) {
+        super(name);
     this.radius = radius;
    
 
     }
 
   area() {
-    return Math.PI * this.radius * this.radius;
+    return Math.PI * this.radius ** 2;
   }
 } 
 class Rectangle extends Shape {
@@ -47,9 +47,10 @@ class Triangle extends Shape {
 let circle = new Circle("Circle", 5);
 let rectangle = new Rectangle("Rectangle", 4, 6);
 let triangle = new Triangle("Triangle", 3, 4);
-let shapes = new Shape ()
+let Shapemsg = new Shape(Shape);
 
 
 console.log("Area of Circle: " + circle.area());
 console.log("Area of Rectangle: " + rectangle.area());
 console.log("Area of Triangle: " + triangle.area());
+console.log(Shapemsg.area());
