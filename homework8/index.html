@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <style>
+        #content {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img id="photo" src="dog.jpg" alt="dog" width="240px">
+
+    <div id="photo-buttons">
+        <button id="photo" class="incr" onclick="changePhotoSize(true)">
+          სურათის გადიდება
+        </button>
+        <button class="decr" id="photo" onclick="changePhotoSize()">
+          სურათის დაპატარავება
+        </button>
+      </div>
+
+
+      <p id="text">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s, when an unknown printer took a galley of type and scrambled it to
+        make a type specimen book. It has survived not only five centuries, but
+        also the leap into electronic typesetting, remaining essentially
+        unchanged. It was popularised in the 1960s with the release of Letraset
+        sheets containing Lorem Ipsum passages, and more recently with desktop
+        publishing software like Aldus PageMaker including versions of Lorem
+        Ipsum.
+      </p>
+
+      <div id="buttons">
+
+      <div>Red</div>
+      <button onclick="changeColor('ff0000')">changeColor</button>
+        
+      <div>Green</div>
+      <button onclick="changeColor('008000')">changeColor</button>
+
+      <div>Blue</div>
+      <button onclick="changeColor('0000ff')">changeColor</button>
+        
+    </div>
+
+
+      <div style="margin-top: 100px;">
+        <button onclick="showContent()">ჩვენება</button>
+        <button onclick="hideContent()"> დამალვა</button>
+      </div>
+
+
+    <script type="text/javascript" src="script.js">
+    </script>
+</body>
+
+</html>
